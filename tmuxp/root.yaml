@@ -1,0 +1,15 @@
+session_name: root
+start_directory: "~"
+windows:
+  - layout: main-vertical
+    options:
+      main-pane-width: 60%
+    panes:
+      - focus: true
+        shell_command:
+        - unset TMUX
+        - sleep 1
+        - clear
+      - clear
+      - clear
+      - clear
