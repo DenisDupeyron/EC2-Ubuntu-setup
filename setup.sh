@@ -39,3 +39,7 @@ wget -O /tmp/miniconda.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-
 bash /tmp/miniconda.sh -b -p ${HOME}/miniconda
 ${HOME}/miniconda/bin/conda init bash
 rm -f /tmp/miniconda.sh
+
+# Setup conda completion
+mkdir -p ${HOME}/.local/share/bash-completion/completions
+wget -O ${HOME}/.local/share/bash-completion/completions/conda https://raw.githubusercontent.com/tartansandal/conda-bash-completion/master/conda

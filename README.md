@@ -11,6 +11,8 @@ Current features:
 
 - Unattended installation of miniconda
 
+- Setup conda completion for Bash
+
 - Bash and Vim status bars and git status with powerline
 
 - Simple but useful Bash and Vim defaults
